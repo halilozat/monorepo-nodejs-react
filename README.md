@@ -1,1 +1,1 @@
-# monorepo-nodejs-react
+# monorepo-nodejs-react library app
