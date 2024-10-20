@@ -1,0 +1,32 @@
+{
+  "development": {
+    "port": 8080,
+    "db": {
+      "username": "development_user",
+      "password": "development_password",
+      "database": "development_db",
+      "host": "development_db_host"
+    },
+    "apiSecret": "your_production_secret"
+  },
+  "test": {
+    "port": 8080,
+    "db": {
+      "username": "test_user",
+      "password": "test_password",
+      "database": "test_db",
+      "host": "test_db_host"
+    },
+    "apiSecret": "your_test_secret"
+  },
+  "production": {
+    "port": 8080,
+    "db": {
+      "username": "prod_user",
+      "password": "prod_password",
+      "database": "production_db",
+      "host": "prod_db_host"
+    },
+    "apiSecret": "your_production_secret"
+  }
+}
